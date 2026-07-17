@@ -10,3 +10,11 @@ b = int(input("두번째 숫자 : "))
 result = a + b
 
 print(" 합계 =", result)
+a = int(input("첫 번째 숫자 : "))
+b = int(input("두 번째 숫자 : "))
+
+print("차 =", a - b)
+name = input("이름 : ")
+major = input("학과 : ")
+
+print(name + "님의 학과는 " + major + "입니다.")
