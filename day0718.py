@@ -1,20 +1,5 @@
-import turtle
-
-s = turtle.Screen()
-s.setup(width=800, height=600)
-
-t = turtle.Turtle()
-t.circle(100)
-t.penup()
-t.goto(-40, 130)
-t.dot(15)
-t.goto(40, 130)
-t.dot(15)
-t.goto(-40, 60)
-t.pendown()
-t.right(90)
-t.circle(40, 180)
-
-
-
-turtle.done()
+import math
+print("실제 값 :", math.e)
+print("x가 10일떄 :",(1 + 1/10)**10)
+print("x가 100일떄 :",(1 + 1/100)**100)
+print("x가 1000일떄 :",(1 + 1/1000)**1000)
