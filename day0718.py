@@ -1,4 +1,6 @@
-# 난수 만드는 방법 연습
+# 로또 과제 만들어보기 
 import random
-i = 1
-print("Random #%d: %d" % (i, random.randint(1,6)))
+
+numbers = random.sample(range(1, 46), 5)
+
+print(numbers)
