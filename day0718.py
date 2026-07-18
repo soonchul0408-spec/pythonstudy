@@ -1,7 +1,8 @@
-name = "백순철"
-student_id = "2015150265"
+import turtle
 
-print(name + "\t" + student_id)
+s = turtle.Screen()
+s.setup(width=800, height=600, startx=100, starty=100)
 
-a ="python"
-print(a*3)
+t = turtle.Turtle()
+
+turtle.done()
