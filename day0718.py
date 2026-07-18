@@ -1,8 +1,4 @@
-# inputtuing numbers input함수 연습
-A = int(input("A : "))
-B = int(input("B : "))
+# 난수 만드는 방법 연습
+import random
 
-print("A+B :", A+B)
-print("A-B :", A-B)
-print("A*B :", A*B)
-print("A/B :", A/B)
+print(random.randint(1,6))
