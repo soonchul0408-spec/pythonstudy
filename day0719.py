@@ -1,10 +1,10 @@
-year = 0
-balance = 1_000_000
-while balance < 2_000_000:
-        year = year + 1
-        balance = int(balance * 1.05)
-print("{}년 저금 하시면 {}원이 됩니다.".format(year, balance))
-
+import time 
+n = 3
+cnt = 0
+target_time = time.time() + n
+while time.time() < target_time: 
+    cnt += 1
+print("{N}초 동안 {CNT} 만큼 반복하였습니다.".format (N=n, CNT=cnt))
 
                
         
