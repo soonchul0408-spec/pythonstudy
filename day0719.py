@@ -1,9 +1,13 @@
-# 윤년 조건 판별식 
-year = input(input())
+a = int(input("a를 입력하세요: "))
+b = int(input("b를 입력하세요: "))
+c = int(input("c를 입력하세요: "))
 
-if(year %400 == 0) or ((year % 4 == 0) and (not (year % 100 ==0))):
-    print("%d is a leap year" % year)
+if a**2 + b**2 == c**2:
+    print("직각삼각형")
+elif a**2 + b**2 > c**2:
+    print("예각삼각형")
 else:
-    print("%d is not a leap year" % year)
+    print("둔각삼각형")
+
     
 
