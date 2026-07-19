@@ -1,16 +1,10 @@
-import time
+year = 0
+balance = 1_000_000
+while balance < 2_000_000:
+        year = year + 1
+        balance = int(balance * 1.05)
+print("{}년 저금 하시면 {}원이 됩니다.".format(year, balance))
 
-n = int(input("자연수 > "))
-start_time = time.time()
 
-if n <= 1:
-    print(f"{n}은 소수가 아닙니다.")
-else:
-    for i in range(2, n):
-        if n % i == 0:
-            print(f"{n}은 {i}로 나누어 떨어집니다.")
-            break
-    else:
-        print(f"{n}은 소수입니다.")
-
-print("걸린 시간 :", time.time() - start_time)
+               
+        
